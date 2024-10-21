@@ -8,7 +8,7 @@ const Scrambles = props => {
     return word.
     split("").
     sort(() => {
-      return 0.5 - Math.random();
+      return 0.7 - Math.random();
     }).
     join("");
   };
@@ -50,7 +50,7 @@ const Scrambles = props => {
         setActiveText(activeText + 1);
       }, 90);
     } else if (!play) {
-      /*click();*/
+      click();
     }
     return () => clearInterval(interval);
   }, [play, activeText]);
@@ -62,4 +62,4 @@ const Scrambles = props => {
 
 };
 
-ReactDOM.render( /*#__PURE__*/React.createElement(Scrambles, { text: "Ethan$pl33fan" }), document.getElementById("app"));
+ReactDOM.render( /*#__PURE__*/React.createElement(Scrambles, { text: "Ethan$pl33fan" }), document.getElementById("scrambled_txt"));

@@ -27,3 +27,9 @@ p {
   bottom: 10px;
   font-size: calc(4px + 2vmin);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
