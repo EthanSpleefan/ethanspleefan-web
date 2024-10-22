@@ -8,7 +8,7 @@ const Scrambles = props => {
     return word.
     split("").
     sort(() => {
-      return 0.7 - Math.random();
+      return 0.75 - Math.random();
     }).
     join("");
   };
@@ -62,4 +62,4 @@ const Scrambles = props => {
 
 };
 
-ReactDOM.render( /*#__PURE__*/React.createElement(Scrambles, { text: "Ethan$pl33fan" }), document.getElementById("scrambled_txt"));
+ReactDOM.render( /*#__PURE__*/React.createElement(Scrambles, { text: "Hi I'm, Ethan$pl33fan" }), document.getElementById("scrambled_txt"));
