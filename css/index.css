@@ -860,7 +860,6 @@ form button:hover{
     height: 40px; 
     width:40px;
     padding:2px;
-    animation: rotate 2s linear infinite;
 }
 .colors ul{
     display: flex;
