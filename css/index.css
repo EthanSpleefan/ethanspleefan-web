@@ -28,12 +28,21 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+
+#scrambled_txt {
+    font-size: 5vw; 
+    text-align: center; 
+    line-height: 1.2; 
+}
+
+
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
 }
   html{
     background: #101010;
+   
     
   }
   #loader{
